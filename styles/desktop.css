@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 1250px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a img:last-of-type {
+  display: none;
+}
+
+.horizontal-border {
+  height: 1px;
+  width: 100%;
+  background-color: #f5f6f7;
+}
+.vertical-border {
+  width: 1px;
+  background-color: #f5f6f7;
+  /* height: 100%; */
+}
+
+nav {
+  width: 1250px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 16px;
+  white-space: nowrap;
+}
+
+/* NAV COLORS */
+.g1 {
+  color: #c3170c;
+}
+.o-globo {
+  color: #1e4b9b;
+}
+.valor {
+  color: #006766;
+}
+.ge {
+  color: #07aa47;
+}
+.cartola {
+  color: #e3662b;
+}
+.globoplay {
+  color: #fb0735;
+}
+.dropz {
+  color: #ff75bb;
+}
+.gshow {
+  color: #ec7d00;
+}
+.quem {
+  color: #323333;
+}
+.receitas {
+  color: #a81d83;
+}
+/* NAV COLORS */
+
+main {
+  width: 1250px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main-news {
+  width: 50%;
+}
+.main-news h1 {
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 67px;
+  color: #c4160c;
+  margin-bottom: 30px;
+}
+.main-news h2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #303134;
+  margin-bottom: 10px;
+}
+.main-news div:first-of-type {
+  margin-bottom: 25px;
+}
+
+.news-block {
+  margin: 20px 0;
+}
+.news-block h3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  margin: 10px 0;
+}
+.news-block h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #2f3134;
+  margin-bottom: 15px;
+}
+.news-block p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #2f3134;
+  margin-bottom: 10px;
+}
+
+.main-news-list {
+  display: flex;
+  justify-content: space-between;
+}
+.main-news-list .news-block {
+  width: 193px;
+}
+.main-news-list img {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+.main-news-list h3 {
+  color: #c4170c;
+}
+
+.side-news .news-block:first-of-type {
+  margin-top: 0;
+}
+.side-news-list {
+  display: flex;
+  flex-direction: column;
+}
+.side-news-list .news-block {
+  width: 240px;
+}
+.side-news-list img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+.sports h3 {
+  color: #16ae54;
+}
+.show h3 {
+  color: #ec8006;
+}
